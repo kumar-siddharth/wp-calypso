@@ -140,7 +140,7 @@ class RequestLoginEmailForm extends React.Component {
 						) }
 					</p>
 					<label htmlFor="usernameOrEmail" className="magic-login__form-label">
-						{ this.props.translate( 'Email Address' ) }
+						{ this.props.translate( 'Email Address or Username' ) }
 					</label>
 					<FormFieldset className="magic-login__email-fields">
 						<FormTextInput
